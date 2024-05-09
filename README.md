@@ -31,12 +31,8 @@ This is a dashboard application built using ReactJS and Node.js. It allows users
 - **GET `/getStoreData/:store`**: Retrieve user details based on a specific store and time range.
   - Parameters:
     - `store`: The name of the store.
-    - `startDate`: Start date for data retrieval.
-    - `endDate`: End date for data retrieval.
-- **GET `/getStates`**: Get a list of states for selection dropdown.
-- **GET `/getMinMaxDates/:state`**: Get the minimum and maximum dates for a state.
-  - Parameters:
-    - `state`: The name of the state.
+    - `start`: Start date for data retrieval.
+    - `end`: End date for data retrieval.
 ## Folder Structure
 ```
 dashboard-app/
