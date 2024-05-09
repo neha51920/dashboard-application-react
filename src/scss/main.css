@@ -1,0 +1,14 @@
+.justify-content-space-evenly{
+      justify-content: space-evenly !important;  
+}
+.custom__dropdown{
+    justify-content: flex-end !important;
+    margin-bottom: 10px;
+}
+@media (min-width: 992px) {
+    .sidebar.sidebar-fixed {
+        position: fixed;
+        top: calc(4rem + 1px);
+        bottom: 0;
+    }
+}
